@@ -37,6 +37,15 @@
         [JsonProperty("ReferenceID")]
        
         public string ReferenceId { get; set; }
+
+        [JsonProperty("TheftCover")]
+        public bool TheftCover { get; set; }
+
+        [JsonProperty("ElectronicCover")]
+        public bool ElectronicCover { get; set; }
+
+        [JsonProperty("breakdownCover")]
+        public bool BreakdownCover { get; set; }
     }
 
     public partial class QuoteResponse

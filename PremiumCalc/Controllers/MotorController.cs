@@ -37,6 +37,9 @@ namespace PremiumCalc.Controllers
             response.Product = request.Product;
             response.Email = request.Email;
             response.Mobile= request.Mobile;
+            response.BreakdownCover = request.BreakdownCover;
+            response.TheftCover = request.TheftCover;
+            response.ElectronicCover= request.ElectronicCover; 
             response.ReferenceId = request.ReferenceId;
 
             response.QuoteNo = System.Guid.NewGuid().ToString();
